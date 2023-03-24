@@ -8,6 +8,8 @@ import { HomeComponent } from './components/home/home.component';
 import { PortafolioHomeComponent } from './components/portafolio/portafolio-home/portafolio-home.component';
 import { PortafolioCreateComponent } from './components/portafolio/portafolio-create/portafolio-create.component';
 import { ProfileComponent } from './components/profile/profile.component';
+import { RegisterComponent } from './components/register/register.component';
+import { RegisterAdminComponent } from './components/register-admin/register-admin.component';
 
 @NgModule({
     declarations: [
@@ -17,6 +19,8 @@ import { ProfileComponent } from './components/profile/profile.component';
         PortafolioHomeComponent,
         PortafolioCreateComponent,
         ProfileComponent,
+        RegisterComponent,
+        RegisterAdminComponent,
     ],
     imports: [
         BrowserModule,
